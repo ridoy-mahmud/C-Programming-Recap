@@ -2,18 +2,26 @@
 
 int main()
 {
-    // Variable declaration in C
-    int y = 50;
-    int x = 30;
-    int z = x + y;
-    printf("Sum of x + y = %d\n", z);
+    // Inteser variable
+    int a = 50;
+    int b = 30;
 
-    // %d means a decimal number
-    int a = 10;
-    int b = 50;
-    printf("The Result is %d + %d = %d\n", a, b, a + b);
-    printf("The Result is %d - %d = %d\n", a, b, a - b);
-    printf("The Result is %d * %d = %d\n", a, b, a * b);
-    printf("The Result is %d / %d = %d\n", a, b, a / b);
+    int c = a + b;
+    printf("Sum of a + b  is %d\n", c);
+    printf("\n");
+
+    int x = 10;
+    int y = 50;
+    printf("%d + %d = %d\n ", x, y, x + y);
+    printf("%d - %d = %d\n ", x, y, x - y);
+    printf("%d * %d = %d\n ", x, y, x * y);
+    printf("%d / %d = %d\n ", x, y, x / y);
+
+    // Float number
+    float k = 68.08;
+    int w = 44;
+    float u = k + w;
+    printf("%f\n", u);
+
     return 0;
 }
