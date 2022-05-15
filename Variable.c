@@ -18,7 +18,7 @@ int main()
     printf("%d / %d = %d\n ", x, y, x / y);
 
     // Float number
-    float k = 68.08;
+    float k = 68.08f;
     int w = 44;
     float u = k + w;
     printf("%f\n", u);
