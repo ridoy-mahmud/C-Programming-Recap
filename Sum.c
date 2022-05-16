@@ -2,9 +2,15 @@
 
 int main()
 {
-    printf("%f\n", 5.88 + 10);
-    printf("%d\n", 99 + 10);
-    printf("%i\n", 9 + 10);
+
+    int a, b;
+    a = 10;
+    b = 4;
+    float c, d;
+    c = 4.0f;
+    d = 2.0f;
+    printf("%d %d\n", a + b, a - b);
+    printf("%.1f %.1f\n", c + d, c - d);
 
     return 0;
 }
