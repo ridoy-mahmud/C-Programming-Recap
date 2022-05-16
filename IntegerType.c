@@ -3,6 +3,7 @@
 int main()
 {
     // .. // .. //  Signed Integer Data .. // .. // .. //
+    printf("------------ Signed Interger-----------\n");
 
     // short %d %hi
     short a = 50;
@@ -36,6 +37,8 @@ int main()
     printf("The decimal of the hexadecimal is %d\n", h);
 
     // .. // .. // Unsigned Integer Data // .. // .. //
+
+    printf("------------ Unsigned Interger-----------\n");
 
     // Unsigned short is -  %hu
 
