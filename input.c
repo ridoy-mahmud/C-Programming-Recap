@@ -21,5 +21,8 @@ int main()
     scanf("%c", &e);
     scanf("%c", &f);
     printf("%c %c\n", e, f);
+
+
+    
     return 0;
 }
